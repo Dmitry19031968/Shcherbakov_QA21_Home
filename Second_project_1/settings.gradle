@@ -1,0 +1,3 @@
+rootProject.name = 'Second_project_1'
+include 'Wikipedia_web_tests'
+

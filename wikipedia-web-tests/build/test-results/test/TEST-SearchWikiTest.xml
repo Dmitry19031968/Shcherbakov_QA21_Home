@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchWikiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-23T19:46:05" hostname="wdw-ПК" time="19.01">
+  <properties/>
+  <testcase name="searchWikiTest" classname="SearchWikiTest" time="19.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 41562
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1566589569.480][WARNING]: Timed out connecting to Chrome, retrying...
+авг 23, 2019 10:46:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
