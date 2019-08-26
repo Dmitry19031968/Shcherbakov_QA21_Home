@@ -5,10 +5,9 @@ import org.testng.annotations.Test;
 public class SearchWikiTest extends TestBase {
 
     @Test
-
     public void searchWikiTestTelRan() {
-        wiki = new ChromeDriver();
-        wiki.get("https://en.wikipedia.org");
+        //wiki = new ChromeDriver();
+       // wiki.get("https://en.wikipedia.org");
         wiki.findElement(By.name("search")).click();
         wiki.findElement(By.name("search")).clear();
         wiki.findElement(By.name("search")).sendKeys("tel-ran");
@@ -17,8 +16,8 @@ public class SearchWikiTest extends TestBase {
     }
     @Test
     public void searchWikiTestQA() {
-        wiki = new ChromeDriver();
-        wiki.get("https://en.wikipedia.org");
+       // wiki = new ChromeDriver();
+       // wiki.get("https://en.wikipedia.org");
         wiki.findElement(By.name("search")).click();
         wiki.findElement(By.name("search")).clear();
         wiki.findElement(By.name("search")).sendKeys("QA");
