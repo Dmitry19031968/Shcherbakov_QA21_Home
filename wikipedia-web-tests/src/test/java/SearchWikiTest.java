@@ -4,25 +4,27 @@ import org.testng.annotations.Test;
 
 public class SearchWikiTest extends TestBase {
 
-    @Test
+    @Test(priority = 2)
 
     public void searchWikiTestTelRan() {
-        wiki = new ChromeDriver();
-        wiki.get("https://en.wikipedia.org");
-        wiki.findElement(By.name("search")).click();
-        wiki.findElement(By.name("search")).clear();
-        wiki.findElement(By.name("search")).sendKeys("tel-ran");
-        wiki.findElement(By.name("go")).click();
-        wiki.findElement(By.name("search")).clear();
+        app.wiki = new ChromeDriver();
+        app.openSite("https://en.wikipedia.org");
+        app.wiki.findElement(By.name("search")).click();
+        app.wiki.findElement(By.name("search")).clear();
+        app.wiki.findElement(By.name("search")).sendKeys("tel-ran");
+        app.wiki.findElement(By.name("go")).click();
+        app.wiki.findElement(By.name("search")).clear();
+
     }
-    @Test
+    @Test(priority = 1)
     public void searchWikiTestQA() {
-        wiki = new ChromeDriver();
-        wiki.get("https://en.wikipedia.org");
-        wiki.findElement(By.name("search")).click();
-        wiki.findElement(By.name("search")).clear();
-        wiki.findElement(By.name("search")).sendKeys("QA");
-        wiki.findElement(By.name("go")).click();
+        app.wiki = new ChromeDriver();
+        app.openSite("https://en.wikipedia.org");
+        app.wiki.findElement(By.name("search")).click();
+        app.wiki.findElement(By.name("search")).clear();
+        app.wiki.findElement(By.name("search")).sendKeys("QA");
+        app.wiki.findElement(By.name("go")).click();
+        app.wiki.findElement(By.name("search")).clear();
 
     }
 
