@@ -1,26 +1,24 @@
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
 
 
-    WebDriver wiki;
+    protected static ApplicationManager app = new ApplicationManager();
 
-    @BeforeMethod
+    @BeforeTest
     public void setUP() {
-        wiki = new ChromeDriver();
-        wiki.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        wiki.manage().window().maximize();
-        wiki.get("https://en.wikipedia.org");
+        app.wiki = new ChromeDriver();
+        app.wiki.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        app.wiki.manage().window().maximize();
+        app.wiki.get("https://en.wikipedia.org");
     }
 
-    @AfterMethod
+    @AfterTest
     public void tearDown() throws InterruptedException {
         Thread.sleep(5000);
-        wiki.quit();
+        app.wiki.quit();
     }
 }
