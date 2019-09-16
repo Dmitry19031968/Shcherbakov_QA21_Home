@@ -4,10 +4,7 @@ import org.testng.annotations.Test;
 public class LoginTest extends TestBase {
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 2a2691f7fe37c63a302a46e4832a41f6751512a3
     @Test
     public void loginTest() {
         //init login
