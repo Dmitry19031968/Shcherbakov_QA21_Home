@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-15T20:47:28" hostname="wdw-ПК" time="2.331">
   <properties/>
   <testcase name="loginTest" classname="LoginTest" time="2.331"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
+=======
+<testsuite name="LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-26T15:00:27" hostname="LAPTOP-UIDQDQN6" time="2.469">
+  <properties/>
+  <testcase name="loginTest" classname="LoginTest" time="2.469"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 28556
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+??? 26, 2019 6:00:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+>>>>>>> 2a2691f7fe37c63a302a46e4832a41f6751512a3
 </testsuite>

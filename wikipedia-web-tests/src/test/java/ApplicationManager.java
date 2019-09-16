@@ -1,4 +1,5 @@
 import org.openqa.selenium.WebDriver;
+<<<<<<< HEAD
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -21,4 +22,9 @@ public class ApplicationManager {
         Thread.sleep(5000);
         wiki.quit();
     }
+=======
+
+public class ApplicationManager {
+    WebDriver wiki;
+>>>>>>> 2a2691f7fe37c63a302a46e4832a41f6751512a3
 }
