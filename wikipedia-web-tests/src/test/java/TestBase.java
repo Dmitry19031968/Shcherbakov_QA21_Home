@@ -5,12 +5,12 @@ public class TestBase {
 
     protected static ApplicationManager app = new ApplicationManager();
 
-    @BeforeSuite
+    @BeforeMethod
     public void setUP() {
         app.init();
     }
 
-    @AfterSuite
+    @AfterMethod
     public void tearDown() throws InterruptedException {
         app.stop();
     }

@@ -10,7 +10,7 @@ public class ApplicationManager {
         wiki = new ChromeDriver();
         wiki.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wiki.manage().window().maximize();
-        openSite("https://en.wikipedia.org");
+        openSite("http://en.wikipedia.org");
     }
 
     public void openSite(String url) {
