@@ -6,5 +6,7 @@ public class HelpresWiki {
 
     public void openSite(String url) {
         wiki.get(url);
+        wiki.quit();
+
     }
 }

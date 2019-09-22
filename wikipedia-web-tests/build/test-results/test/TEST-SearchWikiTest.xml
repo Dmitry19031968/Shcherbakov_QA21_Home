@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SearchWikiTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-15T20:47:30" hostname="wdw-ПК" time="13.932">
+<testsuite name="SearchWikiTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-22T10:59:05" hostname="wdw-ПК" time="2.272">
   <properties/>
-  <testcase name="searchWikiTestQA" classname="SearchWikiTest" time="6.645"/>
-  <testcase name="searchWikiTestTelRan" classname="SearchWikiTest" time="7.287"/>
+  <testcase name="searchWikiTestQA" classname="SearchWikiTest" time="0.804"/>
+  <testcase name="searchWikiTestTelRan" classname="SearchWikiTest" time="1.465"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 13408
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1568580451.913][WARNING]: This version of ChromeDriver has not been tested with Chrome version 77.
-[1568580453.917][WARNING]: Timed out connecting to Chrome, retrying...
-сен 15, 2019 11:47:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 10495
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1568580458.560][WARNING]: This version of ChromeDriver has not been tested with Chrome version 77.
-[1568580460.564][WARNING]: Timed out connecting to Chrome, retrying...
-сен 15, 2019 11:47:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
