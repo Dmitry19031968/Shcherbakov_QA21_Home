@@ -23,7 +23,7 @@ public class ApplicationManager extends HelpresWiki{
            wiki = new FirefoxDriver();
         }
 
-        wiki.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        wiki.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         wiki.manage().window().maximize();
         openSite("http://en.wikipedia.org");
     }
