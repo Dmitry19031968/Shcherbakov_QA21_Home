@@ -1,8 +1,6 @@
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import java.util.concurrent.TimeUnit;
-
 public class SearchWikiTest extends TestBase {
 
     @Test(priority = 2)
@@ -16,11 +14,7 @@ public class SearchWikiTest extends TestBase {
         app.wiki.findElement(By.name("search")).sendKeys("tel-ran");
         app.wiki.findElement(By.name("go")).click();
         app.wiki.findElement(By.name("search")).clear();
-
-
     }
-
-
     @Test(priority = 1)
     public void searchWikiTestQA()  {
        // wiki = new ChromeDriver();
@@ -31,8 +25,5 @@ public class SearchWikiTest extends TestBase {
         app.wiki.findElement(By.name("search")).sendKeys("QA");
         app.wiki.findElement(By.name("go")).click();
         app.wiki.findElement(By.name("search")).clear();
-
-
     }
-
 }

@@ -3,8 +3,6 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase {
 
-
-
     @Test
     public void loginTest() {
         //init login
@@ -21,5 +19,4 @@ public class LoginTest extends TestBase {
         //confirm login
         app.wiki.findElement(By.name("wploginattempt")).click();
     }
-
 }

@@ -1,6 +1,7 @@
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
 
@@ -19,9 +20,12 @@ public class ApplicationManager extends HelpresWiki{
        if(browser.equals(BrowserType.CHROME)){
             wiki = new ChromeDriver();
         }
-       if(browser.equals(BrowserType.FIREFOX)){
+       else if(browser.equals(BrowserType.FIREFOX)){
            wiki = new FirefoxDriver();
         }
+       else if(browser.equals(BrowserType.EDGE)){
+           wiki = new EdgeDriver();
+       }
 
         wiki.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         wiki.manage().window().maximize();
