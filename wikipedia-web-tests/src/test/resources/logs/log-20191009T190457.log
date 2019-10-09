@@ -1,0 +1,6 @@
+19:05:20.517 [main] INFO  TestBase - start test searchWikiTestQA with parameters[]
+19:05:21.529 [main] INFO  TestBase - stop test searchWikiTestQA
+19:05:21.531 [main] INFO  TestBase - start test searchWikiTestTelRan with parameters[]
+19:05:24.634 [main] INFO  TestBase - stop test searchWikiTestTelRan
+19:05:24.636 [main] INFO  TestBase - start test loginTest with parameters[]
+19:05:26.895 [main] INFO  TestBase - stop test loginTest

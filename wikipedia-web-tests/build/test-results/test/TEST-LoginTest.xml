@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-06T08:05:10" hostname="wdw-ПК" time="2.35">
+<testsuite name="LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-09T09:45:52" hostname="wdw-ПК" time="2.173">
   <properties/>
-  <testcase name="loginTest" classname="LoginTest" time="2.35"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="loginTest" classname="LoginTest" time="2.173"/>
+  <system-out><![CDATA[12:45:52.348 [Test worker] INFO  LoginTest - start test LoginTest
+12:45:54.526 [Test worker] INFO  LoginTest - stop test LoginTest
+===========================================================
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

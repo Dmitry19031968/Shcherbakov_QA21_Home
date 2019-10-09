@@ -8,4 +8,11 @@ public class HelpresWiki {
         wiki.get(url);
         wiki.quit();
     }
+
+    @Override
+    public String toString() {
+        return "HelpresWiki{" +
+                "wiki=" + wiki +
+                '}';
+    }
 }

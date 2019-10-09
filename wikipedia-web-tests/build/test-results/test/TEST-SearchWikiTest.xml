@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SearchWikiTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-06T08:05:08" hostname="wdw-ПК" time="2.374">
-  <properties/>
-  <testcase name="searchWikiTestQA" classname="SearchWikiTest" time="0.912"/>
-  <testcase name="searchWikiTestTelRan" classname="SearchWikiTest" time="1.459"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,0 +1,6 @@
+15:36:11.746 [main] INFO  TestBase - start test searchWikiTestQA
+15:36:12.625 [main] INFO  TestBase - stop test searchWikiTestQA
+15:36:12.628 [main] INFO  TestBase - start test searchWikiTestTelRan
+15:36:14.196 [main] INFO  TestBase - stop test searchWikiTestTelRan
+15:36:14.197 [main] INFO  TestBase - start test loginTest
+15:36:16.249 [main] INFO  TestBase - stop test loginTest

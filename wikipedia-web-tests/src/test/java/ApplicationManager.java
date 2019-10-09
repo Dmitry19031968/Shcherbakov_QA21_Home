@@ -36,5 +36,6 @@ public class ApplicationManager extends HelpresWiki{
         Thread.sleep(5000);
         wiki.quit();
     }
+
 }
 

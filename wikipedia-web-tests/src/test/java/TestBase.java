@@ -1,9 +1,26 @@
 import org.openqa.selenium.remote.BrowserType;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.lang.reflect.Method;
+import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
+    Logger logger = LoggerFactory.getLogger(TestBase.class);
+
+    @BeforeMethod
+    public void startLogger(Method m, Object[] p) {
+        logger.info("start test " + m.getName() + " with parameters" + Arrays.asList(p));
+    }
+
+    @AfterMethod
+    public void stopLogger(Method m){
+        logger.info("stop test " + m.getName());
+        System.out.println("=========================================================================================");
+    }
 
     protected static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
@@ -23,4 +40,5 @@ public class TestBase {
         Thread.sleep(5000);
         app.wiki.quit();
     }
+
 }
